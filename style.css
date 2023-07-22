@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "comfortaa";
+  font-style: normal;
+  font-weight: 300;
+  src: local('comfortaa') url(Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+h1 {
+  font-family: 'comfortaa',cursive;
+  text-align: center;
+  border-radius: 15px;
+  border: 10px solid white;
+  background-color: #00b20c;
+  color: white;
+}
+img {
+  width: 350px;
+  float: left;
+  padding: 10px;
+}
+.place {
+  background-color: #00b20c;
+  border: 10px solid #00b20c;
+  border-radius: 7px;
+  width: 600px;
+  margin-left: 300px;
+}
+footer {
+  margin: 40px;
+  text-align: center;
+  border: 1px solid #00b20c;
+  background-color: #00b20c;
+  border-radius: 5px;
+}
